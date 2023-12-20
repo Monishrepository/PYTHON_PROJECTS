@@ -1,4 +1,4 @@
-import pyttsx3
+import pyttsx3 
 import os
 import speech_recognition as sr
 import wikipedia
@@ -52,6 +52,8 @@ if __name__ == "__main__":
             webbrowser.open("instagram.com")
         elif 'open youtube' in query:
             webbrowser.open("youtube.com")
+        elif 'open gmail' in query:
+            webbrowser.open("gmail.com")
             
         
         
